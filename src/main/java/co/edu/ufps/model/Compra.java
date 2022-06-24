@@ -33,6 +33,8 @@ public class Compra {
 	@ManyToOne
 	@JoinColumn(name = "cliente")
 	private Cliente  cliente;
+
+	private String a;
 	
 	
 	public Compra() {
